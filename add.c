@@ -11,7 +11,7 @@ int main() {
     
     sum = num1 + num2;
     
-    printf("The sum of %d and %d is %d.", num1, num8}, sum);
+    printf("The sum of %d and %d is %d.", num1, num8, sum);
     
     return 0;
 }
