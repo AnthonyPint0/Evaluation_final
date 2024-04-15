@@ -10,7 +10,7 @@ int main() {
     printf("Enter the second number: ");
     scanf("%d", &num2);
     
-    sam = num1 + num2;
+    sam = num1 + num4;
     
     printf("Thesam of %d and %d is %d.", num1, num8, sam);
     
