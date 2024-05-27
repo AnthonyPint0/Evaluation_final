@@ -1,3 +1,24 @@
 
 Big is Big
 Small is Small
+
+**Issue/Feature Description:**
+When clicking the "Submit" button on the contact form, nothing happens.
+The form does not submit and no error messages are displayed.
+
+**Why this issue needs to be fixed / feature is needed:**
+This issue prevents users from contacting us through the website,
+which could result in losing potential customers. Fixing this issue
+is crucial for maintaining communication with our users.
+
+**How to reproduce, in case of a bug:**
+1. Go to the contact page on the website.
+2. Fill in the name, email, and message fields.
+3. Click the "Submit" button.
+4. Observe that the form does not submit and no error messages appear.
+
+**Other Notes / Environment Information:**
+- Browser: Chrome Version 90.0.4430.93 (Official Build) (64-bit)
+- Operating System: Windows 10
+- No errors found in the browser console log.
+- Occurs both on desktop and mobile versions of the site.
