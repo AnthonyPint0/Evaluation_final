@@ -5,8 +5,7 @@ Templates for ISSUE
 **Other Notes / Environment Information: (Please give the env information, log link or any
 useful information for this issue)**
 
-Big is Big
-Small is Small
+****************************************************************************************
 
 **Issue/Feature Description:**
 When clicking the "Submit" button on the contact form, nothing happens.
@@ -28,6 +27,9 @@ is crucial for maintaining communication with our users.
 - Operating System: Windows 10
 - No errors found in the browser console log.
 - Occurs both on desktop and mobile versions of the site.
+
+****************************************************************************************
+
 Template For Pull Request
 1. Please give clear description and fill all the needed fields in the PR template below
 2. Provide all the test report and results for the PR. It is mandatory. Otherwise,
@@ -64,3 +66,37 @@ leading whitespace from that line:
 report,
 or add the testing details.
 -->
+
+****************************************************************************************
+
+**What type of PR is this?**
+> Uncomment only one ` /kind <>` line, hit enter to put that in a new line, and remove
+leading whitespace from that line:
+>
+> /kind new feature
+> /kind bug fix
+> /kind cleanup
+> /kind revert change
+> /kind design
+> /kind documentation
+> /kind enhancement
+
+**What this PR does / why we need it**:
+This PR adds a new user authentication feature to improve the security of the application. It implements JWT for token-based authentication, ensuring that user sessions are securely managed.
+
+**Which issue(s) this PR fixes**:
+Fixes #123
+
+**Test Report Added?**
+> Uncomment only one ` /kind <>` line, hit enter to put that in a new line, and remove
+leading whitespace from that line:
+> /kind TESTED
+> /kind NOT-TESTED
+
+**Test Report**:
+Tests were run using Jest and all tests passed. Below are the results:
+- User login: PASSED
+- Token validation: PASSED
+- User logout: PASSED
+
+See full test report [here](link to test report).
