@@ -12,7 +12,7 @@ int main() {
     
     sam = num1 + num2;
     
-    printf("The sum of %d and %d is %d.", num1, num8, sam);
+    printf("The sam of %d and %d is %d.", num1, num8, sam);
     
     return 0;
 }
