@@ -82,7 +82,8 @@ leading whitespace from that line:
 > /kind enhancement
 
 **What this PR does / why we need it**:
-This PR adds a new user authentication feature to improve the security of the application. It implements JWT for token-based authentication, ensuring that user sessions are securely managed.
+This PR adds a new user authentication feature to improve the security of the application.
+ It implements JWT for token-based authentication, ensuring that user sessions are securely managed.
 
 **Which issue(s) this PR fixes**:
 Fixes #123
